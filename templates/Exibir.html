@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/estilo.css">
+    <title>{{ Titulo5 }}</title>
+</head>
+<body>
+
+    <h1 class="aq">{{ Titulo5 }}</h1>
+     {% for filme in lista %}
+        <div class="card">
+            <h3>{{filme[0]}}</h3>
+            <img src="/static/iconeFilme.png">
+            <p>nome: {{ filme[2] }}</p>
+            <p>genero: {{ filme[1] }}</p>
+            <p>classificacao: {{ filme[3] }}</p>
+        </div>
+     {% endfor %}
+    <div>
+    <a class="voltar" href="/">Voltar à Página Inicial</a>
+    </div>
+</body>
+</html>

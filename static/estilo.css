@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/Fundao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 100px;
+}
+
+img {
+    height: 200px;
+    max-width: 200px;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
+
+/* Estilo do nav */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 35px 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ef3e3e;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+    background-color: #003d82;
+}
+
+.form-grupo{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 0.4fr 1fr;
+        max-width: 400px;
+        label {
+            margin-top: 5px;
+            text-align: right;
+            padding-right: 15px;
+
+        }
+        input,select {
+            width: 100%;
+            padding: 7px;
+            box-sizing: border-box;
+
+        }
+
+}
+.btn-form{
+    padding: 10px;
+    background-color: #fc5959;
+    border-radius: 20px;
+    margin-top: 30px;
+       }
+
+.grupamento{
+    background-color: azure;
+    width: 800px;
+    margin-left: 530px;
+    height: 200px;
+    border-radius: 40px;
+    margin-top: 280px;
+}
+.grupamento h1{
+    padding-top: 20px;
+}
+
+.animar:hover {
+    background-color: #004C88;
+    color: white;
+    border-color: #004C88;
+    transform: scale(5.1);
+}
+
+.animar {
+    animation: pulse 2s infinite;
+}
+
+.aq{
+    color: white;
+    font-size: 25pt;
+}
+
+.card p {
+    font-size: 16pt;
+    color: #333;
+    margin-top: 30px;
+}
+
+.voltar{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: #ef3e3e;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.voltar:hover{
+    background-color: #003d82;
+}
+
+.container {
+    margin-bottom: 60px;
+}
+
+.voltar1{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: #ef3e3e;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.voltar1:hover{
+    background-color: #003d82;
+}
+
